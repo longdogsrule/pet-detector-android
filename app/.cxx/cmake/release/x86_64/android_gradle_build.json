@@ -1,0 +1,119 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/home/matt/android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"tensorflow_demo-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "/home/matt/android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64 --target tensorflow_demo",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/imageutils_jni.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/frame_pair.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/image_neon.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/logging.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/object_detector.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/object_tracker.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/optical_flow.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/time_log.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/tracked_object.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/object_tracking/utils_neon.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/rgb2yuv.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android24 --gcc-toolchain=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/yuv2rgb.cc",
+					"workingDirectory" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/x86_64"
+				}
+			],
+			"output" : "/home/matt/AndroidStudioProjects/pet-detector-android/app/build/intermediates/cmake/release/obj/x86_64/libtensorflow_demo.so",
+			"toolchain" : "16287457676254381634"
+		}
+	},
+	"toolchains" : 
+	{
+		"16287457676254381634" : 
+		{
+			"cCompilerExecutable" : "/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/matt/android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

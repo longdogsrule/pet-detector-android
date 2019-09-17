@@ -1,0 +1,3 @@
+/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/debug/x86_64/CMakeFiles/tensorflow_demo.dir

@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/matt/android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "tensorflow_demo-Debug-x86_64": {
+      "artifactName": "tensorflow_demo",
+      "buildCommand": "/home/matt/android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/debug/x86_64 --target tensorflow_demo",
+      "abi": "x86_64",
+      "output": "/home/matt/AndroidStudioProjects/pet-detector-android/app/build/intermediates/cmake/debug/obj/x86_64/libtensorflow_demo.so"
+    }
+  }
+}

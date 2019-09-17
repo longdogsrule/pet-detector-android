@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/matt/AndroidStudioProjects/pet-detector-android",
+      "sdkFolder": "/home/matt/android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app",
+      "makeFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/src/main/jni/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/.cxx",
+      "cxxFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx",
+      "ndkFolder": "/home/matt/android/Sdk/ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app/build/intermediates/cmake/release/lib",
+    "objFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app/build/intermediates/cmake/release/obj",
+    "jsonFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release",
+    "gradleBuildOutputFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/arm64-v8a",
+  "jsonFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cxx/release/arm64-v8a",
+  "objFolder": "/home/matt/AndroidStudioProjects/pet-detector-android/app/build/intermediates/cmake/release/obj/arm64-v8a",
+  "buildCommandFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cxx/release/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cxx/release/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cxx/release/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cxx/release/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cxx/release/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cxx/release/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cxx/release/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/matt/AndroidStudioProjects/pet-detector-android/app/.cxx/cmake/release/arm64-v8a/compile_commands.json"
+}
